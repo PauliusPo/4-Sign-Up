@@ -1,0 +1,28 @@
+
+.container {
+    display: inline-block;
+    width: 1000px;
+    height: 200px;
+    background-color: aquamarine; 
+    margin-left: calc( (100% - 1000px) / 2);
+    margin-top: 80px;
+                }
+.left-side {
+    display: inline-block;
+    width: 40%;
+    float:left;
+    background-color: blue;
+    
+            }
+.right-side{
+    display: inline-block;
+    width: calc(60% - 40px );
+    padding: 20px;
+    float:left;
+    border: 10px solid black;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    
+
+}
